@@ -8,6 +8,8 @@ import {
 import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
 
+var style = { height: "100vh" };
+
 class SingleMovie extends React.Component {
   constructor(props) {
     super(props);
@@ -31,15 +33,14 @@ class SingleMovie extends React.Component {
   }
 
   render() {
-    const { selected } = this.props;    
+    const { selected } = this.props;
     return (
-      <div>
-        <NavBar />
+      <div style={style}>
         <button className="favbut" onClick={this.handleClick}>
           {" "}
           Add to Favourites{" "}
         </button>
-        <div className="container">
+        <div className="container" >
           <div className="row">
             {selected.Title ? (
               <div key={selected.imdbID}>

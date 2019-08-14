@@ -70645,6 +70645,9 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
+var style = {
+  height: "100vh"
+};
 
 var SingleMovie =
 /*#__PURE__*/
@@ -70683,7 +70686,9 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       var selected = this.props.selected;
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavBar__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        style: style
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         className: "favbut",
         onClick: this.handleClick
       }, " ", "Add to Favourites", " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
