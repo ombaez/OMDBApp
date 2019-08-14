@@ -1,0 +1,163 @@
+@import "./css/materialize.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.brand-logo {
+  margin-left: 20px;
+}
+
+.right {
+  max-height: 50px;
+}
+
+.searchField {
+  margin-right: 30px;
+  color: white;
+}
+
+textarea::placeholder {
+  border-style: none;
+  border-color: Transparent;
+  overflow: auto;
+  outline: none;
+}
+
+.container-fluid {
+  width: 100%;
+  background-color: grey;
+}
+
+.movieContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  height: 100%;
+  margin-left: 170px;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  align-items: center;
+}
+
+.noSearchView {
+  width: 100vw;
+  height: 100vh;
+}
+
+.movieCard {
+  background-color: #90caf9;
+  border: 1px solid silver;
+  border-radius: 10px 40px 40px 10px;
+  width: 250px;
+  height: 350px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.imageCardSize {
+  width: 100px;
+  height: 200px;
+}
+
+.movieTitle {
+  color: black;
+  font-size: 20px;
+  justify-self: center;
+}
+
+.linkedIcon {
+  background-image: url("./icon/linkedin-logo.png");
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.gitHubIcon {
+  background-image: url("./icon/github-sign.png");
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.gmailIcon {
+  background-image: url("./icon/gmail.png");
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.facebookIcon {
+  background-image: url("./icon/facebook-logo.png");
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.loginContainer {
+  width: 600px;
+  height: 600px;
+}
+
+.carousel {
+  top: 50px;
+}
+
+.carouselClass {
+  background-color: grey;
+  height: 80vh;
+}
+
+.carousel-item {
+  height: 40px;
+}
+
+.ulClassFooter {
+  display: flex;
+  flex-direction: row;
+}
+
+.ulClassFooter div {
+  margin-right: 20px;
+}
+
+#loginContainer {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  margin-top: 150px;
+  margin-left: 600px;
+}
+
+#registerContainer {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  margin-top: 150px;
+  margin-left: 600px;
+}
+
+#password {
+  margin-left: 10px !important;
+}
+
+.footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+}
+
+#footerCopy {
+  padding-bottom: 30px;
+}

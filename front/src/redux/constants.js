@@ -1,0 +1,15 @@
+// Movies
+export const RECEIVE_MOVIES = 'RECEIVE_MOVIES';
+export const RECEIVE_MOVIE = 'RECEIVE_MOVIE';
+export const RECEIVE_SEARCH = 'RECEIVE_SEARCH';
+export const RECEIVE_FAVMOVIES = 'RECEIVE_FAVMOVIES';
+export const RECEIVE_ID = 'RECEIVE_ID'
+
+// User
+export const SET_USER = 'SET_USER';
+export const CREATE_USER = 'CREATE_USER';
+export const CREATE_USERCHECK = 'CREATE_USERCHECK';
+export const SET_USERADDCHECK = 'SET_USERADDCHECK';
+export const SET_USERCHECK = 'SET_USERCHECK'
+export const LIST_ALLUSERS = 'LIST_ALLUSERS'
+
