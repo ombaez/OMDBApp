@@ -70689,7 +70689,7 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         style: style
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-        className: "favbut",
+        className: "button",
         onClick: this.handleClick
       }, " ", "Add to Favourites", " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container"

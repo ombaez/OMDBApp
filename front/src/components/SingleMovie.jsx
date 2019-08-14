@@ -36,7 +36,7 @@ class SingleMovie extends React.Component {
     const { selected } = this.props;
     return (
       <div style={style}>
-        <button className="favbut" onClick={this.handleClick}>
+        <button className="button" onClick={this.handleClick}>
           {" "}
           Add to Favourites{" "}
         </button>
