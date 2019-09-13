@@ -10,7 +10,6 @@ export default class CarouselReact extends React.Component {
   handleCarousel() {
     var elems = document.querySelectorAll(".carousel");
     var instance = M.Carousel.init(elems, { dragged: false });
-    console.log(elems, instance, "carousel");
   }
 
   componentDidMount() {

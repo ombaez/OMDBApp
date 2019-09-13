@@ -38,10 +38,10 @@ class ListAllUsers extends React.Component {
     console.log(this.props.user.allUsers);
     const { selected } = this.props;
     return (
-      <div>
+      <div className="container-fluid">
         {this.props.user.allUsers
           ? this.props.user.allUsers.map((e, index = 0) => (
-              <div key={index++}>
+              <div key={index++} style={{ width: "100vw", height: "100vh" }}>
                 <li>
                   {e.email + e.id}{" "}
                   <button onClick={() => this.deleteUser(e.id)}>

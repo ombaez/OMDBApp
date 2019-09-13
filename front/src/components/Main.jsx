@@ -19,13 +19,18 @@ class Main extends React.Component {
     this.state = {};
   }
   componentDidMount() {
-    this.props.fetchUser();
+    this.props.fetchUser().then(res => console.log(res));
+    console.log("monta");
   }
 
   render() {
     return (
       <div id="appContainer" className="container-fluid">
-        <Route render={({ history }) => <Header history={history} />} />
+        <Route
+          render={({ history }) => (
+            <Header user={this.props.user.userlogged} history={history} />
+          )}
+        />
         <Switch>
           <Route exact path={"/"} render={() => <Carousel />} />
           <Route

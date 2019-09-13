@@ -62,13 +62,14 @@ textarea::placeholder {
 }
 
 .imageCardSize {
-  width: 100px;
+  width: 180px;
   height: 200px;
 }
 
 .movieTitle {
   color: black;
-  font-size: 20px;
+
+  font-size: 26px;
   justify-self: center;
 }
 
