@@ -27,7 +27,7 @@
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "pg": "^7.8.2",
-    "sequelize": "^4.43.0"
+    "sequelize": "^5.15.1"
   },
   "devDependencies": {
     "Faker": "^0.7.2",
